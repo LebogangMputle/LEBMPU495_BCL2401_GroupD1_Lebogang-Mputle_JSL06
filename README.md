@@ -20,22 +20,7 @@ The current implementation assumes a fixed price for all menu items, which is un
 
 Improvement: Integrate a pricing model into the menu data structure, allowing each item to have its own price. Update the addToOrder function to calculate the total based on actual item prices.
 
-2. User Feedback
-Currently, there's no feedback to the user upon adding an item to their order, which might lead to confusion or accidental multiple adds.
-
-Improvement: Implement a notification system or visual cue (e.g., highlighting the added item or showing a temporary popup) to confirm that an item has been added to the order.
-
-3. Responsiveness and Accessibility
-The project's front-end design currently does not account for responsive design principles or accessibility standards.
+3. Responsiveness
+The project's front-end design currently does not account for responsive design principles.
 
 Improvement: Apply responsive web design practices to ensure the menu is usable on devices of all sizes. Improve accessibility by adding appropriate ARIA roles and properties to the dynamically generated elements, ensuring that the website is navigable and usable by people with disabilities.
-
-4. Scalability and Performance
-As the menu grows, the current implementation might not scale well, potentially leading to performance issues.
-
-Improvement: Optimize the dynamic generation of the menu by limiting DOM manipulations, possibly through document fragments or virtual DOM techniques. Consider lazy loading or pagination for very large menus.
-
-5. Backend Integration
-The project simulates fetching data from a server but currently operates entirely on the frontend.
-
-Improvement: Implement actual server-side logic with a database to store and manage the menu data. This would allow for real-time updates to the menu and prices without needing to redeploy the front-end application.
