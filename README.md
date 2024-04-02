@@ -14,7 +14,7 @@ Calculating and updating the order total in real-time as users add items require
 
 Solution: We maintained a running total of the order and updated the UI each time an item was added. This approach keeps the displayed total in sync with the user's selections.
 
-Areas for Improvement
+# Areas for Improvement
 1. Dynamic Pricing
 The current implementation assumes a fixed price for all menu items, which is unrealistic for a real-world application.
 
